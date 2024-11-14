@@ -1,0 +1,62 @@
+h6 {
+  font-family: Arial, sans-serif;
+  color: green;
+}
+
+/* Seletor por ID */
+
+#menu {
+  color: blueviolet;
+}
+
+/* Seletor de CLASSE */
+
+.promo {
+  color: peru;
+}
+
+/* é um elemento da classe promo que está dentro de um elemento P */
+
+p .promo {
+}
+
+/* é um P da classe promo */
+
+p.promo {
+}
+
+/* Seletor de UNIVERSAL */
+
+* {
+  color: blue;
+}
+
+h1 {
+  border: forestgreen 5px dotted;
+  font-style: italic;
+}
+
+h3 {
+  border: forestgreen 5px dotted;
+  font-style: italic;
+}
+
+h4,
+h5 {
+  border: red 5px dotted;
+  font-style: italic;
+}
+
+a {
+  color: darkolivegreen !important;
+}
+a {
+  color: green;
+}
+
+label{
+
+  /* como dimensionar uma linha em bloco */
+  display: block;
+  width: 75px;
+}
